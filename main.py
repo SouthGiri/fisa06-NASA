@@ -12,7 +12,7 @@ data = response.json()
 
 title = data['title']
 explanation = data['explanation']
-img_url = data['hdurl']
+img_url = data['url']
 
 # README.md 파일 생성
 readme_content = f"""# {title}
